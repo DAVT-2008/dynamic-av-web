@@ -109,7 +109,7 @@ export default function Footer() {
                 </div>
                 <p className="text-white/60 font-medium text-xs leading-relaxed tracking-wider uppercase">
                   Dynamic AV Technologies (Pvt) Ltd.<br />
-                  No 17, Lauries Place, Colombo 04,<br />
+                  No 18, Lauries Place, Colombo 04,<br />
                   Western Province, Sri Lanka.
                 </p>
               </div>
