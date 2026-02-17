@@ -1,0 +1,29 @@
+name: Deploy React App to Contabo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Deploy to VPS
+      uses: appleboy/ssh-action@v0.1.6
+      with:
+        host: ${{ secrets.VPS_HOST }}
+        username: root
+        password: ${{ secrets.VPS_PASSWORD }}
+        script: |
+          cd /var/www/av-dynamic-web/dynamic-av-web
+          git pull origin main
+          docker build -t av-dynamic-frontend .
+          docker stop av-dynamic-frontend-container || true
+          docker rm av-dynamic-frontend-container || true
+          docker run -d -p 3005:80 --name av-dynamic-frontend-container av-dynamic-frontend
+
