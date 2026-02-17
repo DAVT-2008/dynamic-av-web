@@ -16,9 +16,9 @@ jobs:
     - name: Deploy to VPS
       uses: appleboy/ssh-action@v0.1.6
       with:
-        host: ${{ secrets.VPS_HOST }}
+        host: 109.205.179.181
         username: root
-        password: ${{ secrets.VPS_PASSWORD }}
+        password: AVstore123#
         script: |
           cd /var/www/av-dynamic-web/dynamic-av-web
           git pull origin main
