@@ -23,6 +23,11 @@ export default function About() {
       role: "Director",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764567201/manil_fernando_s1ptoe.jpg",
     },
+    {
+      name: "Naushad Junaid",
+      role: "Director",
+      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771133935/WhatsApp_Image_2026-02-15_at_11.08.09_sxcisf.jpg", // Replace with actual image link
+    },
   ];
 
   return (
@@ -49,7 +54,7 @@ export default function About() {
           <motion.h1 
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            className="text-6xl md:text-8xl font-black tracking-tighter uppercase"
+            className="text-6xl md:text-8xl font-black tracking-tighter uppercase leading-none"
           >
             OUR <span className="text-red-700">LEGACY.</span>
           </motion.h1>
@@ -60,29 +65,27 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           
-          {/* Mission */}
           <motion.div 
             whileHover={{ y: -5 }}
-            className="group relative p-10 bg-white/[0.02] border border-white/10 rounded-[2.5rem] overflow-hidden"
+            className="group relative p-10 bg-white/[0.02] border border-white/10 rounded-[2rem] overflow-hidden"
           >
             <div className="absolute top-0 left-0 w-2 h-0 bg-red-600 group-hover:h-full transition-all duration-500" />
-            <h3 className="text-red-600 font-black text-xs uppercase tracking-[0.3em] mb-4 text-center lg:text-left">Our Mission</h3>
-            <h2 className="text-3xl font-bold mb-6 text-center lg:text-left">Redefining Presence through Clarity.</h2>
-            <p className="text-slate-400 text-lg leading-relaxed font-light text-center lg:text-left">
+            <h3 className="text-red-600 font-black text-xs uppercase tracking-[0.3em] mb-4">Our Mission</h3>
+            <h2 className="text-3xl font-bold mb-6">Redefining Presence through Clarity.</h2>
+            <p className="text-slate-400 text-lg leading-relaxed font-normal">
               To empower organizations by bridging the gap between human connection and digital precision. 
               We deliver bespoke AV environments that act as the silent backbone of every successful presentation.
             </p>
           </motion.div>
 
-          {/* Vision */}
           <motion.div 
             whileHover={{ y: -5 }}
-            className="group relative p-10 bg-white/[0.02] border border-white/10 rounded-[2.5rem] overflow-hidden"
+            className="group relative p-10 bg-white/[0.02] border border-white/10 rounded-[2rem] overflow-hidden"
           >
             <div className="absolute top-0 left-0 w-2 h-0 bg-red-600 group-hover:h-full transition-all duration-500" />
-            <h3 className="text-red-600 font-black text-xs uppercase tracking-[0.3em] mb-4 text-center lg:text-left">Our Vision</h3>
-            <h2 className="text-3xl font-bold mb-6 text-center lg:text-left">The Global Benchmark for AV Innovation.</h2>
-            <p className="text-slate-400 text-lg leading-relaxed font-light text-center lg:text-left">
+            <h3 className="text-red-600 font-black text-xs uppercase tracking-[0.3em] mb-4">Our Vision</h3>
+            <h2 className="text-3xl font-bold mb-6">The Global Benchmark for AV Innovation.</h2>
+            <p className="text-slate-400 text-lg leading-relaxed font-normal">
               Setting the standard for design-led engineering and technical dependability. 
               Our vision is a future where complex audio-visual ecosystems become invisible.
             </p>
@@ -90,23 +93,23 @@ export default function About() {
         </div>
       </div>
 
-      {/* ================= 3. LEADERSHIP BOARD ================= */}
+      {/* ================= 3. LEADERSHIP BOARD (5 IN ONE LINE) ================= */}
       <div className="py-32 bg-black relative">
-        {/* Soft Background Radial Glow */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-red-900/10 via-transparent to-transparent opacity-50 pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
           <div className="flex flex-col md:flex-row items-end justify-between mb-24 gap-8">
-            <div className="max-w-xl text-center md:text-left">
+            <div className="max-w-xl">
               <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none">
                 LEADERSHIP <br /><span className="text-red-700">ARCHITECTS</span>
               </h2>
               <p className="text-slate-500 mt-6 font-mono text-[10px] uppercase tracking-[0.5em]">Board of Directors // Governance</p>
             </div>
-            <div className="hidden md:block h-[1px] flex-grow bg-gradient-to-r from-red-600/30 to-transparent mx-10 mb-4" />
+            <div className="hidden md:block h-px flex-grow bg-gradient-to-r from-red-600/30 to-transparent mx-10 mb-4" />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* lg:grid-cols-5 ensures 5 items in one row on large screens */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             {directors.map((person, index) => (
               <motion.div
                 key={index}
@@ -116,27 +119,23 @@ export default function About() {
                 viewport={{ once: true }}
                 className="group flex flex-col"
               >
-                {/* Image Section - Frame Only */}
-                <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] border border-white/5 group-hover:border-red-600/30 transition-all duration-700 shadow-2xl bg-[#0f0f0f]">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/5 group-hover:border-red-600/30 transition-all duration-700 shadow-2xl bg-[#0f0f0f]">
                   <img
                     src={person.image}
                     alt={person.name}
-                    className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                   />
-                  
-                  {/* Subtle Corner Hardware Detail */}
-                  <div className="absolute top-5 right-5 w-2 h-2 rounded-full border border-red-600 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <div className="absolute top-4 right-4 w-1.5 h-1.5 rounded-full border border-red-600 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
 
-                {/* Info Section - Clean & Centered */}
-                <div className="p-6 text-center">
-                  <h4 className="text-xl font-bold text-white group-hover:text-red-600 transition-colors uppercase tracking-tight">
+                <div className="py-6 text-center">
+                  <h4 className="text-base font-black text-white group-hover:text-red-600 transition-colors uppercase tracking-tight leading-tight">
                     {person.name}
                   </h4>
                   <div className="flex items-center justify-center gap-2 mt-2">
                     <div className="h-1 w-1 bg-red-600 rounded-full animate-pulse" />
-                    <p className="text-[10px] uppercase tracking-[0.3em] text-slate-500 font-mono font-bold">
-                        {person.role}
+                    <p className="text-[8px] uppercase tracking-[0.2em] text-slate-500 font-mono font-bold">
+                      {person.role}
                     </p>
                   </div>
                 </div>
@@ -146,10 +145,10 @@ export default function About() {
         </div>
       </div>
       
-      {/* Footer Closing Quote */}
+      {/* Footer Quote */}
       <div className="py-24 border-t border-white/5 text-center px-6">
-         <p className="text-slate-500 font-light italic text-xl max-w-2xl mx-auto">
-            "We build the technical legacy that carries your message forward."
+         <p className="text-slate-500 font-normal text-lg max-w-2xl mx-auto uppercase tracking-widest">
+            "Engineering the technical legacy that carries your message forward."
          </p>
       </div>
     </section>

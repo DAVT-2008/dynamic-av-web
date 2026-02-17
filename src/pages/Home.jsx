@@ -53,6 +53,12 @@ export default function Home() {
       description: "Background music and paging systems for premium hotels and resorts.",
       category: "Hospitality"
     },
+      {
+      title: "PEOPLE'S BANK",
+      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771304126/WhatsApp_Image_2026-02-17_at_10.20.57_xxilws.jpg",
+      description: "Background music and paging systems for premium hotels and resorts.",
+      category: "Hospitality"
+    },
  
   ];
 
