@@ -20,10 +20,14 @@ jobs:
         username: root
         password: AVstore123#
         script: |
-          cd /var/www/av-dynamic-web/dynamic-av-web
-          git pull origin main
-          docker build -t av-dynamic-frontend .
-          docker stop av-dynamic-frontend-container || true
-          docker rm av-dynamic-frontend-container || true
-          docker run -d -p 3005:80 --name av-dynamic-frontend-container av-dynamic-frontend
+            cd /var/www/av-dynamic-web/dynamic-av-web
+            git fetch origin
+            git reset --hard origin/main
+            docker build --no-cache -t av-dynamic-frontend .
+            docker rm -f av-dynamic-frontend-container 2>/dev/null || true
+            docker run -d \
+              --restart always \
+              -p 3005:80 \
+              --name av-dynamic-frontend-container \
+              av-dynamic-frontend
 
