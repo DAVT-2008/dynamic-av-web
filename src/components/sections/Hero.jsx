@@ -37,7 +37,7 @@ import React from "react";
           className="relative z-10 max-w-7xl mx-auto px-6 text-center"
         >
           <motion.h1 variants={itemVariants} className="text-6xl md:text-8xl font-black text-white leading-[0.85] tracking-tighter uppercase">
-            DESIGNED FOR VISION TEST <br />
+            DESIGNED FOR TEST <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-red-600 to-red-800">
               BUILT FOR IMPACT
             </span>
