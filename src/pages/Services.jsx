@@ -82,13 +82,13 @@ export default function Services() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="max-w-3xl mx-auto px-6 relative z-10 space-y-8"
+          className="max-w-3xl mx-auto px-6 relative z-10 space-y-12"
         >
           <h3 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter">
             Ready to <span className="text-red-700">Integrate?</span>
           </h3>
           
-          <Link to="/contact">
+          <Link to="/contact" className="block mt-10">
             <motion.button 
               whileHover={{ scale: 1.05, backgroundColor: "#000", border: "1px solid #dc2626" }}
               whileTap={{ scale: 0.98 }}
