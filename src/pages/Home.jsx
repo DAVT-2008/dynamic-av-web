@@ -136,7 +136,7 @@ export default function Home() {
             <div className="w-20 h-1.5 bg-red-600 mx-auto mt-6 rounded-full" />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             {projects.map((project, index) => (
               <motion.div
                 key={index}
