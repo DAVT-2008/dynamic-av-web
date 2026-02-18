@@ -155,8 +155,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity" />
                 
-                <div className="absolute bottom-6 left-6 text-white">
-                  <p className="text-red-500 text-xs font-bold uppercase mb-1">{project.category}</p>
+                <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <p className="text-[8px] md:text-xs font-black text-red-600 uppercase mb-1 tracking-widest">{project.category}</p>
                   <h3 className="text-xl font-bold leading-tight">{project.title}</h3>
                 </div>
 
