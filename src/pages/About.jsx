@@ -24,9 +24,9 @@ export default function About() {
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764567201/manil_fernando_s1ptoe.jpg",
     },
     {
-      name: "Naushad Junaid",
+      name: "Thomas Daetwyler",
       role: "Director",
-      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771133935/WhatsApp_Image_2026-02-15_at_11.08.09_sxcisf.jpg", // Replace with actual image link
+      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771384453/WhatsApp_Image_2026-02-18_at_08.42.39_rvmdtz.jpg", // Replace with actual image link
     },
   ];
 
