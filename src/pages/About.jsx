@@ -24,7 +24,7 @@ export default function About() {
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764567201/manil_fernando_s1ptoe.jpg",
     },
     {
-      name: "Thomas Daetwyler",
+      name: "Thomas Daetwylr",
       role: "Director",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771384453/WhatsApp_Image_2026-02-18_at_08.42.39_rvmdtz.jpg", // Replace with actual image link
     },
