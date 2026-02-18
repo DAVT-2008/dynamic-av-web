@@ -12,52 +12,53 @@ export default function Home() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
-    {
+      {
       title: "BARBEQUE NATION ",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771126951/WhatsApp_Image_2026-02-15_at_09.09.49_1_zw6clj.jpg",
-      
+      description: "Our latest project showcase features a full audio overhaul for Barbeque Nation. We combined the warmth of the Behringer X1202SFX mixer with the raw power of Lab Gruppen amplification and the sleek design of Tannoy DVS 401 speakers.",
+      category: "Resturant"
     },
     {
       title: "HCL TECH",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771126952/WhatsApp_Image_2026-02-15_at_09.09.49_2_kcodrx.jpg",
-      description: "Large-format LED wall installation for corporate events with real-time graphics control.",
-      category: "Display"
+      description: "Featuring the Turbosound iP1000 system, X1204USB mixing console, and Sennheiser XSW 2-835 wireless microphones, this setup offers crystal-clear audio wrapped in a sleek, professional design.",
+      category: "coparate"
     },
     {
       title: "MANDARINA HOTEL",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771126951/WhatsApp_Image_2026-02-15_at_09.09.49_z0udde.jpg",
-      description: "Smart signage network across multiple branches with live updates and scheduling.",
-      category: "Automation"
+      description: "A look inside our AV journey at Mandarina Hotel. By integrating the Turbosound iP1000 system with the QX2442USB mixing console, we’ve created an audio environment that is as aesthetically pleasing as it is sonically superior.",
+      category: "Hotels"
     },
     {
       title: "COMMERCIAL CREDIT ACADEMY",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771126952/WhatsApp_Image_2026-02-15_at_09.09.50_yvzqlj.jpg",
-      description: "Touch-based smart meeting room automation with lighting, AV, and display integration.",
-      category: "Smart Office"
+      description: "Empowering future leaders with the right tools.  We are proud to showcase our latest AV installation at the Commercial Credit. From high definition projection to seamless audio integration, we’ve created an environment where excellence can thrive.",
+      category: "Coparate"
     },
     {
       title: "VALIBLE FINANCE",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771126952/WhatsApp_Image_2026-02-15_at_09.09.50_1_yxec3f.jpg",
-      description: "Professional line-array sound systems for high-capacity auditoriums.",
-      category: "Audio"
+      description: "We are proud to showcase our final project for Vallibel Finance. Our team has integrated a complete AV solution, featuring high quality projection and seamless audio distribution, perfectly tailored for this corporate space.",
+      category: "Coparate"
     },
     {
       title: "HAVELOCKCITY MALL CARGILLS ",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771126952/WhatsApp_Image_2026-02-15_at_09.09.51_1_axhkwr.jpg",
-      description: "Centralized command and control room visuals for 24/7 monitoring.",
-      category: "Command Center"
+      description: "We are pleased to announce the completion of our latest installation at Cargills Food City, Havelock City Mall. Our team has delivered a clean, integrated audio solution designed to enhance the atmosphere of this modern retail space.",
+      category: "PA System"
     },
     {
       title: "KANDOORI RESTURANT",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771126953/WhatsApp_Image_2026-02-15_at_09.09.51_toenn6.jpg",
-      description: "Background music and paging systems for premium hotels and resorts.",
-      category: "Hospitality"
+      description: "Enhancing the dining experience at Kandoori Restaurant. Our team has integrated a seamless audio solution designed to provide balanced sound distribution and a perfect atmosphere for guests.",
+      category: "Resturant"
     },
       {
       title: "PEOPLE'S BANK",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771304126/WhatsApp_Image_2026-02-17_at_10.20.57_xxilws.jpg",
       description: "Background music and paging systems for premium hotels and resorts.",
-      category: "Hospitality"
+      category: "Coparate "
     },
  
   ];
