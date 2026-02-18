@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import SolutionDetail from "./pages/SolutionDetail";
+import ScrollToTop from "./utils/ScrollToTop";
 
 export default function App() {
   return (
