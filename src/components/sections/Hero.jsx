@@ -36,7 +36,7 @@ import React from "react";
           animate="visible"
           className="relative z-10 max-w-7xl mx-auto px-6 text-center"
         >
-          <motion.h1 variants={itemVariants} className="text-4xl sm:text-5xl md:text-8xl font-black text-white leading-[1.1] md:leading-[0.85] tracking-tighter uppercase">
+          <motion.h1 variants={itemVariants} className="text-6xl md:text-7xl font-black text-white leading-[0.85] tracking-tighter uppercase">
             DESIGNED FOR TEST <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-red-600 to-red-800">
               BUILT FOR IMPACT
