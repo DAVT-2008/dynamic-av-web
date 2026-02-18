@@ -173,7 +173,7 @@ export default function Navbar() {
                       <Link 
                         to={item.path} 
                         onClick={() => setOpen(false)} 
-                        className="text-4xl md:text-5xl font-serif italic text-slate-900 hover:text-red-700 transition-colors flex items-center justify-between group"
+                        className="text-xl md:text-5xl font-serif italic text-slate-900 hover:text-red-700 transition-colors flex items-center justify-between group"
                       >
                         {item.label}
                         <span className="text-red-700 opacity-0 group-hover:opacity-100 transition-all text-2xl">→</span>
