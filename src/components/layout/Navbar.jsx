@@ -28,7 +28,7 @@ export default function Navbar() {
     { path: "/services", label: "Services" },
     { path: "/partners", label: "Partners" },
     /* ADDED: External link for the Store */
-    { path: "https://avstore.lk/", label: "AV Store", isExternal: true },
+    { path: "https://avstore.lk/", label: "Online Shop", isExternal: true },
     { path: "/contact", label: "Contact" },
   ];
 
