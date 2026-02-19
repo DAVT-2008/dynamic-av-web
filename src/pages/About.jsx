@@ -16,17 +16,17 @@ export default function About() {
     {
       name: "Malik Fernando",
       role: "Managing Director/CEO",
-      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1763975810/malik_bksvcz.jpg",
+      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771475011/WhatsApp_Image_2026-02-19_at_09.52.53_x1p7m8.jpg",
     },
     {
       name: "Dr. Manil Fernando",
       role: "Director",
-      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764567201/manil_fernando_s1ptoe.jpg",
+      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771475011/WhatsApp_Image_2026-02-19_at_09.52.55_ha70i1.jpg",
     },
     {
       name: "Thomas Daetwyler",
       role: "Director",
-      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771384453/WhatsApp_Image_2026-02-18_at_08.42.39_rvmdtz.jpg", // Replace with actual image link
+      image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771475011/WhatsApp_Image_2026-02-19_at_09.52.59_zp9r7d.jpg", // Replace with actual image link
     },
   ];
 
