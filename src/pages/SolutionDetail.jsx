@@ -295,7 +295,7 @@ export default function SolutionDetail() {
       {/* 4. FOOTER CTA */}
       <section className="py-32 border-t border-white/5 text-center bg-[#050505] relative overflow-hidden">
          <div className="absolute inset-0 bg-red-900/5 blur-[120px] pointer-events-none" />
-         <div className="relative z-10 max-w-2xl mx-auto px-6">
+         <div className="relative z-10 max-w-2xl mx-auto px-6 flex flex-col items-center text-center">
             <h3 className="text-3xl font-black uppercase mb-8 tracking-tighter">Ready to Build Your <span className="text-red-700">Ideal Space?</span></h3>
             <Link to="/contact">
               <Button className="px-12 py-5 bg-red-700 hover:bg-red-600 border-none shadow-[0_10px_30px_rgba(185,28,28,0.2)]">
