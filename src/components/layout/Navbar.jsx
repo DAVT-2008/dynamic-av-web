@@ -27,6 +27,8 @@ export default function Navbar() {
     { path: "/about", label: "About" },
     { path: "/services", label: "Services" },
     { path: "/partners", label: "Partners" },
+    /* ADDED: External link for the Store */
+    { path: "https://avstore.lk/", label: "AV Store", isExternal: true },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -49,41 +51,54 @@ export default function Navbar() {
           : "bg-white border-white/20 shadow-sm"}`}
       >
         
-        {/* 1. LOGO AREA - LARGE VERSION */}
+        {/* 1. LOGO */}
         <Link to="/" className="relative z-[1001] flex-shrink-0">
           <img
             src="https://res.cloudinary.com/dtscqhcop/image/upload/v1764127303/DAVT_NEW_LOGO_PNG_lhud6n.png"
             alt="Dynamic AV"
-            /* Increased height from h-6/h-9 to h-9/h-14 */
             className="h-9 md:h-14 w-auto transition-transform duration-300 hover:scale-105"
           />
         </Link>
 
-        {/* 2. DESKTOP CENTER NAVIGATION */}
+        {/* 2. NAVIGATION */}
         <div className="hidden lg:flex items-center gap-0.5">
           {navLinks.map((item, i) => (
             <React.Fragment key={i}>
-              <NavLink
-                to={item.path}
-                className={({ isActive }) =>
-                  `relative px-4 py-1.5 text-[11px] uppercase tracking-[0.15em] font-bold transition-all
-                  ${isActive ? "text-red-700" : "text-slate-800 hover:text-red-700"}`
-                }
-              >
-                {({ isActive }) => (
-                  <>
-                    <span className="relative z-10">{item.label}</span>
-                    {isActive && (
-                      <motion.div
-                        layoutId="thinUnderline"
-                        className="absolute bottom-0 left-4 right-4 h-[2px] bg-red-700 rounded-full"
-                        transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-                      />
-                    )}
-                  </>
-                )}
-              </NavLink>
+              {item.isExternal ? (
+                /* EXTERNAL RETAIL LINK */
+                <a
+                  href={item.path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-1.5 text-[11px] uppercase tracking-[0.15em] font-bold text-slate-800 hover:text-red-700 transition-all"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                /* INTERNAL PAGE LINKS */
+                <NavLink
+                  to={item.path}
+                  className={({ isActive }) =>
+                    `relative px-4 py-1.5 text-[11px] uppercase tracking-[0.15em] font-bold transition-all
+                    ${isActive ? "text-red-700" : "text-slate-800 hover:text-red-700"}`
+                  }
+                >
+                  {({ isActive }) => (
+                    <>
+                      <span className="relative z-10">{item.label}</span>
+                      {isActive && (
+                        <motion.div
+                          layoutId="thinUnderline"
+                          className="absolute bottom-0 left-4 right-4 h-[2px] bg-red-700 rounded-full"
+                          transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                        />
+                      )}
+                    </>
+                  )}
+                </NavLink>
+              )}
 
+              {/* Solutions Dropdown Trigger */}
               {i === 0 && (
                 <div 
                   className="relative group"
@@ -126,7 +141,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* 3. RIGHT ACTION AREA & MOBILE TOGGLE */}
+        {/* 3. MOBILE TOGGLE */}
         <div className="flex items-center gap-2 md:gap-3">
           <Link to="/contact" className="hidden sm:block">
             <motion.button 
@@ -142,9 +157,9 @@ export default function Navbar() {
             className="z-[1001] w-9 h-9 flex flex-col items-center justify-center gap-1.5 bg-slate-50 rounded-full transition-colors lg:hidden"
             aria-label="Toggle Menu"
           >
-             <motion.span animate={open ? { rotate: 45, y: 5 } : { rotate: 0, y: 0 }} className="w-4 h-[1.5px] bg-slate-900 block" />
-             <motion.span animate={open ? { opacity: 0 } : { opacity: 1 }} className="w-4 h-[1.5px] bg-slate-900 block" />
-             <motion.span animate={open ? { rotate: -45, y: -5 } : { rotate: 0, y: 0 }} className="w-4 h-[1.5px] bg-slate-900 block" />
+            <motion.span animate={open ? { rotate: 45, y: 5 } : { rotate: 0, y: 0 }} className="w-4 h-[1.5px] bg-slate-900 block" />
+            <motion.span animate={open ? { opacity: 0 } : { opacity: 1 }} className="w-4 h-[1.5px] bg-slate-900 block" />
+            <motion.span animate={open ? { rotate: -45, y: -5 } : { rotate: 0, y: 0 }} className="w-4 h-[1.5px] bg-slate-900 block" />
           </button>
         </div>
       </div>
@@ -159,8 +174,6 @@ export default function Navbar() {
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
             className="fixed inset-0 bg-white z-[1000] flex flex-col p-10 lg:hidden overflow-y-auto"
           >
-            <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:20px_20px]" />
-
             <div className="mt-20 flex flex-col justify-between h-full relative z-10">
               <div className="flex flex-col gap-6">
                 {navLinks.map((item, i) => (
@@ -170,7 +183,18 @@ export default function Navbar() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.1 * i }}
                     >
-                      <Link 
+                      {item.isExternal ? (
+                         <a 
+                         href={item.path}
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         className="text-xl md:text-5xl font-serif italic text-red-700 hover:text-slate-900 transition-colors flex items-center justify-between group"
+                       >
+                         {item.label}
+                         <span className="text-red-700 opacity-100 transition-all text-2xl">↗</span>
+                       </a>
+                      ) : (
+                        <Link 
                         to={item.path} 
                         onClick={() => setOpen(false)} 
                         className="text-xl md:text-5xl font-serif italic text-slate-900 hover:text-red-700 transition-colors flex items-center justify-between group"
@@ -178,6 +202,7 @@ export default function Navbar() {
                         {item.label}
                         <span className="text-red-700 opacity-0 group-hover:opacity-100 transition-all text-2xl">→</span>
                       </Link>
+                      )}
                     </motion.div>
 
                     {i === 0 && (
@@ -225,22 +250,15 @@ export default function Navbar() {
                 ))}
               </div>
 
-              <motion.div 
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.6 }}
-                className="border-t border-slate-100 pt-8 pb-4 mt-10"
-              >
+              <div className="border-t border-slate-100 pt-8 pb-4 mt-10">
                 <p className="text-[10px] uppercase tracking-[0.3em] text-red-800 font-bold mb-4">Get in Touch</p>
-                <p className="text-slate-500 font-light text-sm mb-1">info@dynamicavtechnologies.com</p>
                 <p className="text-slate-900 font-serif text-xl">+94 11 258 7677</p>
-                
                 <Link to="/contact" onClick={() => setOpen(false)}>
                   <button className="mt-8 w-full py-4 bg-slate-900 text-white text-[10px] font-black uppercase tracking-[0.3em] rounded-xl">
                     Book a Consultation
                   </button>
                 </Link>
-              </motion.div>
+              </div>
             </div>
           </motion.div>
         )}
