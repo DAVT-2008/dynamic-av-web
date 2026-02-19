@@ -30,13 +30,18 @@ export default function Contact() {
               <span className="text-red-700 font-bold text-[10px] uppercase tracking-[0.4em] block">
                 Connect With Us
               </span>
-              <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-slate-950 uppercase leading-none">
-                Get in <br /> 
-                <span className="text-red-800">Touch.</span>
+              
+              {/* UPDATED: Heading is now forced to a single line with whitespace-nowrap */}
+              <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter text-slate-950 uppercase leading-none whitespace-nowrap">
+                Get in <span className="text-red-800">Touch.</span>
               </h2>
-              <p className="text-slate-500 text-lg font-normal leading-relaxed max-w-md">
+
+              {/* UPDATED: Paragraph is now justified */}
+              <p className="text-slate-500 text-base md:text-lg font-normal leading-relaxed max-w-md text-justify [text-justify:inter-word]">
                 Reach out to our engineering team for specialized audio-visual 
-                consultations and enterprise-grade solutions.
+                consultations and enterprise-grade solutions. We specialize in 
+                integrating complex systems for high-end corporate environments 
+                and private residences across Sri Lanka.
               </p>
             </div>
 
@@ -58,7 +63,7 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* --- RIGHT SIDE: SIMPLE FORM --- */}
+          {/* --- RIGHT SIDE: FORM --- */}
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
