@@ -9,6 +9,7 @@
     "lint": "echo \"Add ESLint config\""
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "framer-motion": "^9.1.7",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
