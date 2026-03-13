@@ -43,32 +43,32 @@ const solutionsData = {
             {
         name: "cinnamon lakeside",
         details: "Complete acoustic overhaul and 4K digital projection system integration for one of Colombo's most iconic screens.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid6_zxah41.jpg"
+        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1773393301/cinnamon_lakeside_colombo_cover_pumprz.jpg"
       },
       {
         name: "The Grand Maitland",
         details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid8_adhsdd.jpg"
+        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1773393804/granddd_tf6adz.png"
       },
       {
         name: "Hambantota Golf Resort & SPA",
         details: "Multi-screen audio-visual synchronization and lobby digital signage networking for a modern multiplex feel.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid3_dnzliw.jpg"
+        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1773393994/hambantota_golf_resort_and_spa_iddcvm.jpg"
       },
       {
         name: "Mandarina Colombo",
         details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid8_adhsdd.jpg"
+        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1773394117/mandarina_colo_rhq98y.jpg"
       },
       {
         name: "Hilton Colombo",
         details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid8_adhsdd.jpg"
+        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1773394480/hiltonnnnnn_ddqtll.jpg"
       },
       {
         name: "Grandbell Hotel",
         details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid8_adhsdd.jpg"
+        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1773394562/grandbell_pdg7mr.jpg"
       }
     ] // Add projects here similarly
   },
