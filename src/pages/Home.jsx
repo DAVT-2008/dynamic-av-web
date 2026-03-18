@@ -25,7 +25,7 @@ export default function Home() {
       category: "coparate"
     },
     {
-      title: "MANDARINA HOTEL",
+      title: "MANdARINA HOTEL",
       image: "https://res.cloudinary.com/dtscqhcop/image/upload/v1771126951/WhatsApp_Image_2026-02-15_at_09.09.49_z0udde.jpg",
       description: "A look inside our AV journey at Mandarina Hotel. By integrating the Turbosound iP1000 system with the QX2442USB mixing console, we’ve created an audio environment that is as aesthetically pleasing as it is sonically superior.",
       category: "Hotels"
