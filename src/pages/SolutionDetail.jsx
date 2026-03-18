@@ -150,8 +150,8 @@ const solutionsData = {
       }
     ]
   },
-    "live-sound-solutions": {
-    title: "Live Sound Solutions",
+    "public-address-system-solutions": {
+    title: "public address system solutions",
     desc: "Professional grade audio rigs for concerts, festivals, and live broadcasting.",
     heroImage: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid_qgwr1b.jpg",
     features: ["Line Arrays", "Digital Mixing", "Dante Networking"],
