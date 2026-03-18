@@ -79,9 +79,9 @@ const solutionsData = {
     features: ["Line Arrays", "Digital Mixing", "Dante Networking"],
     projects: [
       {
-        name: "cinnaman lakeside",
+        name: "Cinnamon lakeside",
         details: "Complete acoustic overhaul and 4K digital projection system integration for one of Colombo's most iconic screens.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid6_zxah41.jpg"
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1773813077/download_pvu8pi.jpg"
       },
       {
         name: "The Grand Maitland",
