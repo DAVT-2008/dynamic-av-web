@@ -172,19 +172,19 @@ const solutionsData = {
         photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780044601/collage_2_xgi4tb.jpg"
       },
       {
-        name: "Mandarina Colombo",
-        details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid8_adhsdd.jpg"
+        name: "BRANDIX FACTORY & OFFICE COMPLEX - RAMBUKKANA",
+        details: "Complete PUBLIC ADDRESS SYSTEM – INTERNAL & EXTERNAL with premium TOA Speakers.",
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780046657/collage_3_rmmilr.jpg"
       },
       {
-        name: "Hilton Colombo",
-        details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid8_adhsdd.jpg"
+        name: "COLOMBO NATIONAL HOSPITAL",
+        details: "Complete PUBLIC ADDRESS SYSTEM – LINKING 90 LOCATIONS with Premium TOA Speakers.",
+        photo: "https://adaderanaenglish.s3.amazonaws.com/1602336653-Three-staffers-of-Colombo-National-Hospital-positive-for-Covid-19-B.jpg"
       },
       {
-        name: "Grandbell Hotel",
-        details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid8_adhsdd.jpg"
+        name: "ROYAL INSTITUTE OF COLOMBO – COURTHOUSE TRAINING CENTRE",
+        details: "A Complete PA System with TOA Speaker.",
+        photo: "https://ric.lk/wp-content/uploads/2022/04/IMG_4473_DxO.jpg"
       }
       
     ]
