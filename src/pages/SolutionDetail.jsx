@@ -14,7 +14,7 @@ const solutionsData = {
       {
         name: "Indenpendance Archade",
         details: "Complete acoustic overhaul and 4K digital projection system integration for one of Colombo's most iconic screens.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1773386347/indi_arcade_erht8h.jpg"
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780036882/Ceylon-theater-800x543_upglm4.jpg"
       },
       {
         name: "Nuwara Eliya Complex",
