@@ -19,7 +19,7 @@ const solutionsData = {
       {
         name: "Nuwara Eliya Complex",
         details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
-        photo: "https://gemini.google.com/539b8998-0a34-49d1-9737-332afd6e4934"
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780038946/Gemini_Generated_Image_atajekatajekataj_zseoyq.png"
       },
       {
         name: "Gampaha Complex",
