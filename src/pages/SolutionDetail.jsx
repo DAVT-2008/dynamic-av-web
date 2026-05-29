@@ -24,7 +24,7 @@ const solutionsData = {
       {
         name: "Gampaha Complex",
         details: "Multi-screen audio-visual synchronization and lobby digital signage networking for a modern multiplex feel.",
-        photo: "https://thfvnext.bing.com/th/id/OIP.VWeTaorW4fITAGFy0Z2hXwHaFj?w=269&h=201&c=7&r=0&o=7&cb=thfvnextfalcon&dpr=1.3&pid=1.7&rm=3"
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780039236/Screenshot_2026-05-29_124936_pzosn1.png"
       },
             {
         name: "Dematagoda Complex",
