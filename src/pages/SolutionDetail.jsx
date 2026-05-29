@@ -158,8 +158,8 @@ const solutionsData = {
     projects: [
       {
         name: "MAKUMBURA MULTI-MODEL CENTRE",
-        details: "The entire Makumbura Multimodal Center Public Address (PA) system was fully designed and deployed using premium TOA audio components to ensure crystal-clear passenger announcements and reliable 24/7 background music distribution.",
-        photo: "https://thfvnext.bing.com/th/id/OIP.52k7Hh-TCH6r0ZM6Wj6qWAHaEK?w=248&h=180&c=7&r=0&o=7&cb=thfvnextfalcon&dpr=1.3&pid=1.7&rm=3"
+        details: "The entire Makumbura Multimodal Center Public Address (PA) system was fully designed and deployed using premium TOA audio components to ensure crystal-clear passenger announcements.",
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780043830/collage_jehkjo.jpg"
       },
       {
         name: "COLOMBO CITY-CENTRE",
@@ -167,9 +167,9 @@ const solutionsData = {
         photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780042811/image_a10564090a_l6gas7.jpg"
       },
       {
-        name: "Hambantota Golf Resort & SPA",
-        details: "Multi-screen audio-visual synchronization and lobby digital signage networking for a modern multiplex feel.",
-        photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid3_dnzliw.jpg"
+        name: "PEOPLE’S BANK – Head office",
+        details: "Complete Auditorium PA & Building Public Address System with Premium TOA Speakers.",
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780044207/collage_1_hly3dp.jpg"
       },
       {
         name: "Mandarina Colombo",
