@@ -169,7 +169,7 @@ const solutionsData = {
       {
         name: "PEOPLE’S BANK – Head office",
         details: "Complete Auditorium PA & Building Public Address System with Premium TOA Speakers.",
-        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780044207/collage_1_hly3dp.jpg"
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780044601/collage_2_xgi4tb.jpg"
       },
       {
         name: "Mandarina Colombo",
