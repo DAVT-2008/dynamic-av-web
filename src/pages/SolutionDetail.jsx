@@ -186,8 +186,20 @@ const solutionsData = {
         details: "Immersive 7.1 surround sound installation and high-brightness 3D projection systems for a premium viewing experience.",
         photo: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid8_adhsdd.jpg"
       }
+      
     ]
-  },
+    },
+  "Audio Conferencing and interpretation solutions": {
+    title: "Audio Conference",
+    desc: "CAMERA TRACKING CONFERENCING & INTERPRETATION SYSTEM,CONFERENCE & INTERPRETATION SYSTEM  WITH MULTIMEDIA PROJECTION.",
+    heroImage: "https://thfvnext.bing.com/th/id/OIP.beR_g7tG5VRv-2AVvr8WpAAAAA?w=266&h=180&c=7&r=0&o=7&cb=thfvnextfalcon&dpr=1.3&pid=1.7&rm=3",
+    features: ["CAMERA TRACKING CONFERENCING"],
+    projects: [
+      {
+        name: "WESTERN PROVICIAL COUNCIL",
+        details: " MAIN CHAMBER – PAPERLESS CONFERENCE SYSTEM.",
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780041328/Screenshot_29-5-2026_13259__lqwoa1.jpg"
+       },
 };
 
 export default function SolutionDetail() {
