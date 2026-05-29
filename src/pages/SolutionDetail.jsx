@@ -29,7 +29,7 @@ const solutionsData = {
             {
         name: "Dematagoda Complex",
         details: "Multi-screen audio-visual synchronization and lobby digital signage networking for a modern multiplex feel.",
-        photo: "https://thfvnext.bing.com/th/id/OIP.ftNtOJsFdqNcwiZR6mwPBgHaFj?w=229&h=180&c=7&r=0&o=7&cb=thfvnextfalcon&dpr=1.3&pid=1.7&rm=3"
+        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780039435/Screenshot_29-5-2026_125341__ta5act.jpg"
       },
 
     ]
