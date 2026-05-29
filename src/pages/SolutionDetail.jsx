@@ -8,7 +8,7 @@ const solutionsData = {
   "cinema-solutions": {
     title: "Cinema Solutions",
     desc: "From private home theaters to commercial multiplexes, we deliver the ultimate cinematic experience.",
-    heroImage: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid6_zxah41.jpg",
+    heroImage: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1780036882/Ceylon-theater-800x543_upglm4.jpg",
     features: ["4K Projection Systems", "Dolby Atmos Integration", "Acoustic Calibration", "Custom Automation"],
     projects: [
       {
