@@ -72,7 +72,7 @@ const solutionsData = {
       }
     ] // Add projects here similarly
   },
-  "  AUDIO CONFERENCING AND INTERPRETATION SOLUTIONS": {
+  "AUDIO CONFERENCING AND INTERPRETATION SOLUTIONS": {
     title: " AUDIO CONFERENCING AND INTERPRETATION SOLUTIONS",
     desc: "Professional grade audio rigs for concerts, festivals, and live broadcasting.",
     heroImage: "https://thfvnext.bing.com/th/id/OIP.beR_g7tG5VRv-2AVvr8WpAAAAA?w=292&h=180&c=7&r=0&o=7&cb=thfvnextfalcon&dpr=1.3&pid=1.7&rm=3",
