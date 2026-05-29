@@ -72,12 +72,16 @@ const solutionsData = {
       }
     ] // Add projects here similarly
   },
-  "live-sound-solutions": {
-    title: "Live Sound Solutions",
+  "  AUDIO CONFERENCING AND INTERPRETATION SOLUTIONS": {
+    title: " AUDIO CONFERENCING AND INTERPRETATION SOLUTIONS",
     desc: "Professional grade audio rigs for concerts, festivals, and live broadcasting.",
-    heroImage: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid_qgwr1b.jpg",
+    heroImage: "https://thfvnext.bing.com/th/id/OIP.beR_g7tG5VRv-2AVvr8WpAAAAA?w=292&h=180&c=7&r=0&o=7&cb=thfvnextfalcon&dpr=1.3&pid=1.7&rm=3",
     features: ["Line Arrays", "Digital Mixing", "Dante Networking"],
-    projects: [
+    projects: [ "WESTERN PROVICIAL COUNCIL" ,"PRESIDENTIAL SECRETARIATE– SRI LANKA", "MINISTRY OF FINANCE","TEMPLE TREES","UNIVERSITY OF SRI JAYAWARDENAPURA
+"OLYMPIC HOUSE","CENTRE OF EXCELLENCE FOR WATER & SANITISATION", "UNIVERSITY OF COLOMBO", "URBAN DEVELOPMENT AUTHORITY", "UNIVERSITY OF JAFFNA","Northern Provincial Council","MAHAWELI AUTHOIRTY OF SRI LANKA
+"],
+  
+
       {
         name: "Cinnammon lakeside",
         details: "Complete acoustic overhaul and 4K digital projection system integration for one of Colombo's most iconic screens.",
