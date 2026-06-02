@@ -111,21 +111,7 @@ const solutionsData = {
     ]
   },
   // ... other solutions (Add 'projects: []' to each)
-    "live-sound-solutions": {
-    title: "Live Sound Solutions",
-    desc: "Professional grade audio rigs for concerts, festivals, and live broadcasting.",
-    heroImage: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid_qgwr1b.jpg",
-    features: ["Line Arrays", "Digital Mixing", "Dante Networking"],
-    projects: [
- {
-     name: "Cinnammon lakeside",
-        details: "Complete acoustic overhaul and 4K digital projection system integration for one of Colombo's most iconic screens.",
-        photo: "https://res.cloudinary.com/dfhbz2r4y/image/upload/v1773813077/download_pvu8pi.jpg"
-  "installed-sound-solutions": {
-
- }
-      ]
-    },
+  
     title: "Installed Sound Solutions",
     desc: "Professional grade audio rigs for concerts, festivals, and live broadcasting.",
     heroImage: "https://res.cloudinary.com/dtscqhcop/image/upload/v1764137791/grid_qgwr1b.jpg",
